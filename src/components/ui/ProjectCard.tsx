@@ -8,6 +8,15 @@ import {
   ShieldCheck,
   Zap,
   Users,
+  TrendingUp,
+  Phone,
+  Server,
+  Monitor,
+  Cloud,
+  Bot,
+  TestTube2,
+  ScanLine,
+  FileSpreadsheet,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import type { Project } from "~/types/data";
@@ -18,6 +27,16 @@ const highlightIcons: Record<string, LucideIcon> = {
   ShieldCheck,
   Zap,
   Users,
+  Package,
+  ScanBarcode: ScanLine,
+  TrendingUp,
+  Phone,
+  FileSpreadsheet,
+  Server,
+  TestTube: TestTube2,
+  Bot,
+  Cloud,
+  Monitor,
 };
 
 interface ProjectCardProps {

@@ -1,29 +1,25 @@
 import { PersonalInfo } from "~/types/data";
 
 export const personalInfo: PersonalInfo = {
-  name: "Abhay Rana",
+  name: "Shubhankar Haldar",
   title: "Full Stack Developer",
-  tagline: "Building exceptional digital experiences with modern web technologies",
-  bio: "I'm a passionate full-stack developer with expertise in building scalable web applications. I specialize in React, Next.js, and Node.js ecosystems, delivering clean code and exceptional user experiences. With a keen eye for detail and a love for elegant solutions, I transform complex problems into simple, beautiful, and intuitive designs.",
-  email: "hi@abhayrana.com",
+  tagline: "Full Stack Developer with 3+ years of experience building scalable web applications",
+  bio: "Full Stack Developer and Software Engineer with 3+ years of experience building scalable web applications using Node.js, React.js, and MySQL. Proficient in RESTful API design, real-time systems with WebSockets, and performance optimization with Redis caching. Experienced in CI/CD pipelines, Agile/Scrum methodologies, and delivering end-to-end products including warehouse management systems and CRM platforms with third-party API integrations.",
+  email: "shubhankarroy974@gmail.com",
   location: "India",
   profileImage: "/profile.jpg",
   resumeUrl: "/resume.pdf",
   socials: [
     {
       platform: "GitHub",
-      url: "https://github.com/abhay-rana",
+      url: "https://github.com/shubhankar-haldar-01",
+   
       icon: "github",
     },
     {
       platform: "LinkedIn",
-      url: "https://www.linkedin.com/in/abhay-rana-0x/",
+      url: "https://www.linkedin.com/in/shubhankar-haldar-bb23a3220/",
       icon: "linkedin",
-    },
-    {
-      platform: "Twitter",
-      url: "https://x.com/Ranaji_0x",
-      icon: "twitter",
     },
   ],
 };

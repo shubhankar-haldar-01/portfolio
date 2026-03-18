@@ -57,15 +57,7 @@ export interface Skill {
   icon: string;
 }
 
-export interface Testimonial {
-  id: string;
-  name: string;
-  role: string;
-  company: string;
-  text: string;
-  avatar?: string;
-  profileUrl?: string;
-}
+
 
 export interface SiteConfig {
   title: string;
@@ -80,18 +72,4 @@ export interface NavItem {
   href: string;
 }
 
-export interface BlogPostMeta {
-  slug: string;
-  title: string;
-  description: string;
-  date: string;
-  readTime: string;
-  tags: string[];
-  coverImage?: string;
-  published: boolean;
-}
 
-export interface BlogPostFull extends BlogPostMeta {
-  content: string;
-  wordCount: number;
-}

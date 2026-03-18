@@ -9,9 +9,9 @@ import { AnimatedSection } from "~/components/ui/AnimatedSection";
 import { SectionHeading } from "~/components/ui/SectionHeading";
 
 const stats = [
-  { value: "4+", label: "Years Experience" },
-  { value: "20+", label: "Projects Delivered" },
-  { value: "20+", label: "Happy Clients" },
+  { value: "3+", label: "Years Experience" },
+  { value: "6+", label: "Projects Delivered" },
+  { value: "1000+", label: "SKUs Managed" },
 ];
 
 interface AboutProps {
